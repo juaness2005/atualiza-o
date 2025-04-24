@@ -586,3 +586,68 @@ p {
     display: block;
     width: 100%;
 }  
+
+footer {
+  position: relative; 
+  background: #031829;
+  color: #1A1A1A; 
+  text-align: left; 
+  padding: 1rem; 
+  margin-top: 20px; 
+  border-top: 1px solid #1A1A1A; 
+ 
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.contatos {
+  font-size: 1.5rem; 
+  color: #E0E0E0;
+  padding: 0.6rem 0;
+  text-align: center;
+}
+
+
+
+.e-mail, .telefone {
+  font-size: 1rem; 
+  color: #1A1A1A;
+  padding: 0.3rem 0; 
+  display: flex; 
+  align-items: center;
+  justify-content: center; /* Centraliza horizontalmente */
+  text-align: center; /* Garante alinhamento do texto */
+  text-decoration: none;
+}
+
+
+.icon { 
+  height: 20px; 
+  margin-right: 10px; 
+}
+
+.linha3 { 
+  border: 0; 
+  height: 2px; 
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), #1A1A1A); 
+  margin: 1px; 
+  width: 100%; 
+}
+
+.copyright, .design {
+  text-align: center; 
+  padding: 0.3rem 0;
+}
+
+@media (max-width: 768px) {
+  .contatos {
+      font-size: 1.2rem; 
+  }
+  
+  .e-mail, .telefone {
+      font-size: 0.9rem; 
+  }
+}
