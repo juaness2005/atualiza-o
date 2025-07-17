@@ -236,14 +236,8 @@
   .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
     margin-right: 10px;
   }
-  
-  .nav-manual .manual-btn:hover{
-    background-color: #087e04;
-  }
-  
-  #radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
-    background-color: #09ff00;
-  }
+
+
   
   #radio1:checked ~ .primeiro{
     margin-left: 0%;
@@ -256,6 +250,10 @@
   #radio3:checked ~ .primeiro{
     margin-left: -50%;
   }
+
+  #radio4:checked ~ .primeiro {
+  margin-left: -75%;
+}
   
   @media screen and (max-width: 900px) {
     .img-desktop{

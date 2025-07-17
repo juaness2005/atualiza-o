@@ -1,4 +1,3 @@
-var radio = document.querySelector('.manual-btn')
 var cont = 1
 var interval
 
@@ -17,11 +16,11 @@ function pararSlide() {
 function proximaImg(){
     cont++
 
-    if(cont > 3){
+    if(cont > 4){
         cont = 1 
     }
 
-    document.getElementById('radio'+cont).checked = true
+    document.getElementById('radio' + cont).checked = true
 }
 
 // Inicia o slide ao carregar a página

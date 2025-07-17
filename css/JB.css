@@ -265,3 +265,32 @@ a {
     ;
 }
 
+#capa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#capa {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#capa img {
+  max-width: 25%;
+  height: auto;
+}
+
+#capa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* ou height: 100vh se tiver certeza do layout */
+}
+
+#capa img {
+  max-width: 25%;
+  height: auto;
+  display: block;
+}
