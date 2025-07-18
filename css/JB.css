@@ -32,6 +32,15 @@ header .btn{
 .navmenu ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.navmenu li {
+    margin-right: 0; /* zera se usar gap */
 }
 
 .navmenu li {
