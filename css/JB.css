@@ -102,10 +102,15 @@ header .btn{
 }
 
 .infos ul {
+  display: flex;
+  flex-wrap: wrap;          /* ← ESSENCIAL para quebrar linha */
+  justify-content: center;
+  gap: 20px;                 /* Espaçamento entre itens */
   list-style: none;
-  margin: 0; /* evita espaço em excesso */
   padding: 0;
+  margin: 0;
 }
+
 
 .infos li a {
   text-decoration: none;
